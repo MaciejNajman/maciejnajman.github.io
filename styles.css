@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(135deg, #001f3f 0%, #000000 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0e5a01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: center;
+  margin-top: 10vh;
+}
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #0e5a01, 0 0 20px #0e5a01;
+}
+.github-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #0e5a01;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.github-link:hover {
+  color: #00bfff;
+}
+.github-icon {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  fill: #0e5a01;
+  transition: fill 0.2s;
+}
+.github-link:hover .github-icon {
+  fill: #00bfff;
+}
