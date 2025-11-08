@@ -39,7 +39,7 @@ body {
   transition: color 0.2s;
 }
 .github-link:hover {
-  color: #002850;
+  color: #9198a1;
 }
 .github-icon {
   width: 48px;
@@ -49,5 +49,5 @@ body {
   transition: fill 0.2s;
 }
 .github-link:hover .github-icon {
-  fill: #001f3f;
+  fill: #9198a1;
 }
